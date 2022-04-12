@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans";
+}
+body {
+  overflow-x: hidden;
+}
+.main-text {
+  width: 100vw;
+  height: 100vh;
+}
+.main-text::before {
+  content: "";
+  background: url("./assets/seclanding.png") no-repeat;
+  position: absolute;
+  background-size: 100%;
+  opacity: 1;
+  top: 0px;
+  right: 0%;
+  width: 60vw;
+  height: 130vh;
+  z-index: -1;
+}
+.main-text .logo {
+  position: absolute;
+  width: 150.58px;
+  height: 37.06px;
+  left: 194px;
+  top: 61.52px;
+}
+.main-text h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 102%;
+  color: #5e239d;
+  position: absolute;
+  /* width: 375px;
+  height: 147px; */
+  left: 188px;
+  top: 279px;
+}
+.main-text p {
+  position: absolute;
+  width: 340px;
+  height: 163px;
+  left: 188px;
+  top: 444px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 123.5%;
+  color: #232323;
+  opacity: 0.8;
+}
+.main-text .signin-btn-input,
+.footer-child .signin-btn-input {
+  position: absolute;
+  width: 305px;
+  height: 52.24px;
+  left: 178px;
+  top: 527.44px;
+  padding: 0 40px;
+  background: #4cde98;
+  box-shadow: 0px 4px 4px rgba(89, 89, 74, 0.2);
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.signin-btn-input::placeholder {
+  color: #ffffff;
+}
+.signin-btn-input-input:focus,
+.signin-btn-input {
+  outline: none;
+  border: none;
+}
+.main-text .signin-btn,
+.footer-child .signin-btn {
+  position: absolute;
+  width: 91px;
+  height: 28.13px;
+  left: 376px;
+  top: 539.5px;
+  font-size: 12px;
+  line-height: 16px;
+  outline: none;
+  color: #232323;
+  border: none;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.signin-btn img {
+  width: 12.22px;
+  height: 11.33px;
+  margin: 2px;
+  /* background: #232323; */
+}
+.sec2 {
+  width: 100vw;
+  height: 100vh;
+}
+.sec2::before {
+  content: "";
+  background: url("./assets/sec1.png") no-repeat;
+  position: absolute;
+
+  background-size: 100%;
+  opacity: 1;
+  top: 490px;
+  right: 0%;
+  width: 100vw;
+  height: 220vh;
+  z-index: -1;
+}
+.sec2 .text {
+  top: 167%;
+  left: 12%;
+  position: absolute;
+}
+.sec2 .text h1,
+.sec3 .text h1,
+.sec4 .text h1,
+.sec5 .text h1 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 102%;
+  color: #5e239d;
+  margin-bottom: 20px;
+}
+.sec2 .text p,
+.sec3 .text p,
+.sec4 .text p,
+.sec5 .text p {
+  width: 521px;
+  height: 163px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 123.5%;
+  color: #232323;
+  opacity: 0.8;
+}
+.sec3 {
+  width: 100vw;
+  height: 100vh;
+}
+.sec3::before {
+  content: "";
+  background: url("./assets/sec2.png") no-repeat;
+  position: absolute;
+
+  background-size: 100%;
+  opacity: 1;
+  top: 245%;
+  left: 5%;
+  width: 80vw;
+  height: 100vh;
+  z-index: -1;
+}
+.sec3 .text {
+  top: 270%;
+  left: 52%;
+  position: absolute;
+}
+.sec4 {
+  width: 100vw;
+  height: 100vh;
+}
+.sec4::before {
+  content: "";
+  background: url("./assets/sec3.png") no-repeat;
+  position: absolute;
+
+  background-size: 100%;
+  opacity: 1;
+  top: 310%;
+  right: 0%;
+  width: 90vw;
+  height: 100vh;
+  z-index: -1;
+}
+.sec4 .text {
+  top: 336%;
+  left: 18%;
+  position: absolute;
+}
+.sec5 {
+  width: 100vw;
+  height: 100vh;
+}
+.sec5::before {
+  content: "";
+  background: url("./assets/sec4.png") no-repeat;
+  position: absolute;
+
+  background-size: 90%;
+  opacity: 1;
+  top: 380%;
+  left: 0%;
+  width: 100vw;
+  height: 122vh;
+  z-index: -1;
+}
+.sec5 .text {
+  top: 408%;
+  left: 55%;
+  position: absolute;
+}
+.sec6 .text {
+  left: 10%;
+  top: 500%;
+  position: absolute;
+  width: 100%;
+}
+.sec6 .text .faq-logo {
+  width: 225px;
+  height: 241.12px;
+}
+.sec6 .text .accordion {
+  left: 5%;
+  top: 60%;
+  position: absolute;
+  width: 75% !important;
+  outline: none;
+}
+.sec6 .text .accordion .accordion-item:focus {
+  outline: none !important;
+  border: 0 !important;
+  background-color: #ffffff;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: none;
+  width: 0;
+  height: 0;
+}
+.accordion .accordion-header,
+.accordion-item {
+  border: 0;
+}
+.accordion .accordion-header img {
+  position: relative;
+  top: -15px;
+  left: 0px;
+}
+.accordion .accordion-button {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 0.5rem 1.25rem;
+}
+.accordion .accordion-body {
+  padding-top: 0.5rem;
+}
+.accordion .accordion-item h2 button,
+.accordion .accordion-body {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 123.5%;
+  color: #232323;
+  opacity: 0.8;
+}
+.accordion .accordion-body {
+  font-size: 18px;
+}
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 134px;
+  top: 575%;
+  background: #4cde98;
+}
+.footer-child {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 123px;
+  background: #5e239d;
+}
+.footer-child p {
+  width: 478px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 123.5%;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.footer-child .signin-btn-input {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.footer-child .signin-btn {
+  right: 340px;
+  left: auto;
+  top: auto;
+}
+.features {
+  display: none;
+}
+@media screen and (max-width: 1024.8px) {
+  .main-text .logo {
+    left: 10%;
+  }
+  .main-text h1 {
+    left: 10%;
+    top: 32%;
+  }
+  .main-text p {
+    left: 10%;
+    top: 57%;
+  }
+  .main-text .signin-btn-input {
+    left: 10%;
+    top: 70%;
+  }
+  .main-text .signin-btn {
+    left: 29%;
+    top: 72%;
+  }
+  .sec2 .text {
+    top: 151%;
+    left: 13%;
+  }
+  .sec3::before {
+    top: 215%;
+  }
+  .sec3 .text {
+    top: 233%;
+    left: 51%;
+  }
+  .sec2 .text h1,
+  .sec3 .text h1,
+  .sec4 .text h1,
+  .sec5 .text h1 {
+    font-size: 50px;
+    width: fit-content;
+  }
+  .sec2 .text p,
+  .sec3 .text p,
+  .sec4 .text p,
+  .sec5 .text p {
+    font-size: 16px;
+    width: fit-content;
+  }
+  .sec4::before {
+    background-size: 100%;
+    top: 270%;
+    right: 0%;
+    width: 80vw;
+  }
+  .sec4 .text {
+    top: 289%;
+  }
+  .sec5::before {
+    top: 332%;
+  }
+  .sec5 .text {
+    top: 353%;
+    left: 54%;
+  }
+  .sec6 .text {
+    top: 420%;
+  }
+  .accordion .accordion-header img {
+    width: 70vw;
+  }
+  .accordion .accordion-header h2 button {
+    font-size: 22px;
+  }
+  .accordion .accordion-body {
+    font-size: 18px;
+  }
+  .footer {
+    top: 505%;
+  }
+  .footer-child .signin-btn {
+    right: 9%;
+  }
+}
+@media screen and (max-width: 768.8px) {
+  .main-text::before {
+    width: 85vw;
+    height: 100vh;
+  }
+  .main-text .logo {
+    width: 70px;
+    height: 17px;
+    left: 6%;
+    top: 49px;
+  }
+  .main-text h1 {
+    width: 272px;
+    height: 111px;
+    left: 6%;
+    top: 55%;
+    font-size: 36px;
+    line-height: 102%;
+  }
+  .main-text p {
+    width: 340px;
+    height: 163px;
+    left: 6%;
+    top: 73%;
+    font-size: 12px;
+    line-height: 123.5%;
+    letter-spacing: -0.01em;
+  }
+  .main-text .signin-btn-input {
+    width: 242px;
+    height: 52px;
+    left: 6%;
+    top: 80%;
+    padding: 0 15px;
+  }
+  .main-text .signin-btn {
+    width: 91px;
+    height: 28.13px;
+    left: 39%;
+    top: 82%;
+  }
+  .sec2::before {
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 490px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
+  }
+  .features {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 101%;
+    display: flex;
+  }
+  .features hr {
+    width: 72px;
+    height: 2px;
+    background: #4cde98;
+  }
+  .features h2 {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #4cde98;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec .mob-text {
+    position: absolute;
+    top: -166%;
+    left: 19%;
+    font-size: 36px !important;
+  }
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+  }
+  .sec3::before {
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 150%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec3 .features {
+    left: 35%;
+    top: 172%;
+    flex-direction: row-reverse;
+  }
+  .sec3 .mob-text {
+    top: -210%;
+    left: -12%;
+  }
+  .sec3 .mob-p {
+    width: 325px !important;
+    left: -155px;
+    position: relative;
+  }
+  .sec4::before {
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 179%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec4 .features{
+    left: 4%;
+    top: 259%;
+  }
+  .sec4 .mob-text{
+    position: absolute;
+    top: -95%;
+    left: 12%;
+  }
+  .sec4 .mob-p{
+    position: relative;
+    top: 160px;
+    left: -30px;
+  }
+  .sec5{
+    height: 75%;
+  }
+  .sec5::before {
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 311%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+  }
+  .sec5 .features{
+    left: 32%;
+    top: 340%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .sec5 .mob-text{
+    position: absolute;
+    top: -33%;
+    left: -13%;
+    width: fit-content !important;
+    font-size: 40px !important;
+  }
+  .sec5 .mob-p{
+    position: relative;
+    top: 230px;
+    left: -170px;
+    width: 320px !important;
+  }
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+}
+.sec6 .text{
+  top: 400%;
+}
+.sec6 .text .accordion {
+  top: 85%;
+  width: 158% !important;
+  left: -5%;
+}
+.accordion-header button{
+  font-size: 16px !important;
+}
+.accordion .accordion-header img {
+  top: 0px;
+}
+.accordion .accordion-body {
+  font-size: 12px;
+}
+.footer{
+  top: 483%;
+}
+.footer-child p{
+  display: none;
+}
+.footer-child .signin-btn {
+  right: 17%;
+}
+.sec3 .text,
+.sec5 .text {
+  width: 0;
+}
+.sec6 .text{
+  width: fit-content;
+}
+}
