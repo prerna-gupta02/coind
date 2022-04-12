@@ -22,7 +22,7 @@ body {
   top: 0px;
   right: 0%;
   width: 60vw;
-  height: 130vh;
+  height: 140vh;
   z-index: -1;
 }
 .main-text .logo {
@@ -34,7 +34,7 @@ body {
 }
 .main-text h1 {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 48px;
   line-height: 102%;
   color: #5e239d;
@@ -43,6 +43,8 @@ body {
   height: 147px; */
   left: 188px;
   top: 279px;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
 }
 .main-text p {
   position: absolute;
@@ -70,9 +72,12 @@ body {
   border-radius: 30px;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 36px;
   color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .signin-btn-input::placeholder {
   color: #ffffff;
@@ -85,22 +90,23 @@ body {
 .main-text .signin-btn,
 .footer-child .signin-btn {
   position: absolute;
-  width: 91px;
-  height: 28.13px;
-  left: 376px;
+  /* width: 91px;
+  height: 28.13px; */
+  left: 420px;
   top: 539.5px;
   font-size: 12px;
   line-height: 16px;
   outline: none;
   color: #232323;
   border: none;
-  background: #ffffff;
+  background: transparent;
   border-radius: 30px;
+  text-decoration: none;
 }
-.signin-btn img {
-  width: 12.22px;
-  height: 11.33px;
-  margin: 2px;
+.signin-btn-input img {
+  width: 24.22px;
+    height: 22.33px;
+  margin: 2px 8px;
   /* background: #232323; */
 }
 .sec2 {
@@ -117,11 +123,11 @@ body {
   top: 490px;
   right: 0%;
   width: 100vw;
-  height: 220vh;
+  height: 253vh;
   z-index: -1;
 }
 .sec2 .text {
-  top: 167%;
+  top: 183%;
   left: 12%;
   position: absolute;
 }
@@ -187,7 +193,7 @@ body {
   top: 310%;
   right: 0%;
   width: 90vw;
-  height: 100vh;
+  height: 115vh;
   z-index: -1;
 }
 .sec4 .text {
@@ -209,7 +215,7 @@ body {
   top: 380%;
   left: 0%;
   width: 100vw;
-  height: 122vh;
+  height: 138vh;
   z-index: -1;
 }
 .sec5 .text {
@@ -285,7 +291,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 134px;
-  top: 575%;
+  top: 585%;
   background: #4cde98;
 }
 .footer-child {
@@ -522,21 +528,21 @@ body {
     width: 100vw;
     height: 220vh;
   }
-  .sec4 .features{
+  .sec4 .features {
     left: 4%;
     top: 259%;
   }
-  .sec4 .mob-text{
+  .sec4 .mob-text {
     position: absolute;
     top: -95%;
     left: 12%;
   }
-  .sec4 .mob-p{
+  .sec4 .mob-p {
     position: relative;
     top: 160px;
     left: -30px;
   }
-  .sec5{
+  .sec5 {
     height: 75%;
   }
   .sec5::before {
@@ -547,20 +553,20 @@ body {
     width: 100vw;
     height: 100vh;
   }
-  .sec5 .features{
+  .sec5 .features {
     left: 32%;
     top: 340%;
     display: flex;
     flex-direction: row-reverse;
   }
-  .sec5 .mob-text{
+  .sec5 .mob-text {
     position: absolute;
     top: -33%;
     left: -13%;
     width: fit-content !important;
     font-size: 40px !important;
   }
-  .sec5 .mob-p{
+  .sec5 .mob-p {
     position: relative;
     top: 230px;
     left: -170px;
@@ -569,38 +575,64 @@ body {
   .sec6 .text .faq-logo {
     width: 215px;
     height: 215.12px;
+  }
+  .sec6 .text {
+    top: 400%;
+  }
+  .sec6 .text .accordion {
+    top: 85%;
+    width: 158% !important;
+    left: -5%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 483%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec3 .text,
+  .sec5 .text {
+    width: 0;
+  }
+  .sec6 .text {
+    width: fit-content;
+  }
 }
-.sec6 .text{
-  top: 400%;
-}
-.sec6 .text .accordion {
-  top: 85%;
-  width: 158% !important;
-  left: -5%;
-}
-.accordion-header button{
-  font-size: 16px !important;
-}
-.accordion .accordion-header img {
-  top: 0px;
-}
-.accordion .accordion-body {
-  font-size: 12px;
-}
-.footer{
-  top: 483%;
-}
-.footer-child p{
-  display: none;
-}
-.footer-child .signin-btn {
-  right: 17%;
-}
-.sec3 .text,
-.sec5 .text {
-  width: 0;
-}
-.sec6 .text{
-  width: fit-content;
-}
+@media screen and (max-width: 480px) {
+  .sec2::before {
+    top: 550px;
+  }
+  .main-text .signin-btn {
+    left: 50%;
+  }
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec .mob-text {
+    left: 26%;
+  }
+  .sec2 .text p {
+    position: relative;
+    top: -60px;
+  }
+  .sec3 .features {
+    left: 25%;
+    top: 166%;
+  }
+  .sec3 .mob-text {
+    top: -232%;
+    left: -60px;
+  }
 }
