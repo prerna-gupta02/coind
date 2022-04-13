@@ -665,6 +665,10 @@ body {
   .sec3::before {
     top: 156%;
   }
+  .sec3 .text {
+    top: 177%;
+    left: 17%;
+  }
   .sec4::before {
     top: 202%;
   }
@@ -682,6 +686,10 @@ body {
     position: relative;
     top: -20%;
   }
+  .sec5 .text {
+    top: 344%;
+    left: 21%;
+}
   .sec6 .text .accordion {
     width: 120% !important;
   }
