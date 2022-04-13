@@ -105,7 +105,7 @@ body {
 }
 .signin-btn-input img {
   width: 24.22px;
-    height: 22.33px;
+  height: 22.33px;
   margin: 2px 8px;
   /* background: #232323; */
 }
@@ -127,7 +127,7 @@ body {
   z-index: -1;
 }
 .sec2 .text {
-  top: 183%;
+  top: 168%;
   left: 12%;
   position: absolute;
 }
@@ -227,7 +227,7 @@ body {
   left: 10%;
   top: 500%;
   position: absolute;
-  width: 100%;
+  width: 90%;
 }
 .sec6 .text .faq-logo {
   width: 225px;
@@ -406,19 +406,19 @@ body {
 }
 @media screen and (max-width: 768.8px) {
   .main-text::before {
-    width: 85vw;
+    width: 88vw;
     height: 100vh;
   }
   .main-text .logo {
     width: 70px;
     height: 17px;
-    left: 6%;
+    left: 10%;
     top: 49px;
   }
   .main-text h1 {
     width: 272px;
     height: 111px;
-    left: 6%;
+    left: 10%;
     top: 55%;
     font-size: 36px;
     line-height: 102%;
@@ -426,18 +426,15 @@ body {
   .main-text p {
     width: 340px;
     height: 163px;
-    left: 6%;
+    left: 10%;
     top: 73%;
     font-size: 12px;
     line-height: 123.5%;
     letter-spacing: -0.01em;
   }
   .main-text .signin-btn-input {
-    width: 242px;
-    height: 52px;
-    left: 6%;
+    left: 10%;
     top: 80%;
-    padding: 0 15px;
   }
   .main-text .signin-btn {
     width: 91px;
@@ -457,46 +454,36 @@ body {
     height: 220vh;
     z-index: -1;
   }
-  .features {
-    display: block;
-    position: absolute;
-    left: 5%;
-    top: 101%;
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text {
+    top: 105%;
+    height: 525px;
     display: flex;
-  }
-  .features hr {
-    width: 72px;
-    height: 2px;
-    background: #4cde98;
-  }
-  .features h2 {
-    font-family: "IBM Plex Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #4cde98;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
+    left: 0%;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .sec2 .mob-text,
   .sec3 .mob-text,
   .sec4 .mob-text,
-  .sec .mob-text {
-    position: absolute;
-    top: -166%;
-    left: 19%;
+  .sec5 .mob-text {
     font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
   }
   .sec2 .mob-p,
   .sec3 .mob-p,
   .sec4 .mob-p,
   .sec5 .mob-p {
     font-size: 12px !important;
+    text-align: left;
+  }
+  .sec2 .text p {
+    position: relative;
+    top: -60px;
+    left: 10%;
   }
   .sec3::before {
     background: url("./assets/mob2.png") no-repeat;
@@ -506,19 +493,9 @@ body {
     width: 100vw;
     height: 220vh;
   }
-  .sec3 .features {
-    left: 35%;
-    top: 172%;
-    flex-direction: row-reverse;
-  }
-  .sec3 .mob-text {
-    top: -210%;
-    left: -12%;
-  }
-  .sec3 .mob-p {
-    width: 325px !important;
-    left: -155px;
-    position: relative;
+  .sec3 .text {
+    top: 180%;
+    left: 11%;
   }
   .sec4::before {
     background: url("./assets/mob3.png") no-repeat;
@@ -528,19 +505,13 @@ body {
     width: 100vw;
     height: 220vh;
   }
-  .sec4 .features {
-    left: 4%;
-    top: 259%;
+  .sec4 .text {
+    top: 263%;
+    left: -3%;
   }
-  .sec4 .mob-text {
-    position: absolute;
-    top: -95%;
-    left: 12%;
-  }
-  .sec4 .mob-p {
+  .sec4 .text p {
     position: relative;
-    top: 160px;
-    left: -30px;
+    left: 20%;
   }
   .sec5 {
     height: 75%;
@@ -553,24 +524,13 @@ body {
     width: 100vw;
     height: 100vh;
   }
-  .sec5 .features {
-    left: 32%;
-    top: 340%;
-    display: flex;
-    flex-direction: row-reverse;
+  .sec5 .text {
+    top: 345%;
+    left: 18%;
   }
-  .sec5 .mob-text {
-    position: absolute;
-    top: -33%;
-    left: -13%;
-    width: fit-content !important;
-    font-size: 40px !important;
-  }
-  .sec5 .mob-p {
+  .sec5 .text p {
     position: relative;
-    top: 230px;
-    left: -170px;
-    width: 320px !important;
+    top: -10%;
   }
   .sec6 .text .faq-logo {
     width: 215px;
@@ -582,7 +542,7 @@ body {
   .sec6 .text .accordion {
     top: 85%;
     width: 158% !important;
-    left: -5%;
+    left: 0%;
   }
   .accordion-header button {
     font-size: 16px !important;
@@ -602,37 +562,84 @@ body {
   .footer-child .signin-btn {
     right: 17%;
   }
-  .sec3 .text,
-  .sec5 .text {
-    width: 0;
-  }
   .sec6 .text {
     width: fit-content;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 395px) {
+  .sec2 .text {
+    top: 103%;
+  }
+  .sec2 .text h1 {
+    left: -2%;
+    position: relative;
+  }
+  .sec3 .text {
+    top: 177%;
+    left: 10%;
+  }
+  .sec4 .text {
+    top: 257%;
+    left: -6%;
+  }
+  .sec5 .text {
+    top: 344%;
+    left: 16%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main-text p {
+    width: 250px;
+  }
+  .main-text .signin-btn-input,
+  .footer-child .signin-btn-input {
+    width: 265px;
+    height: 43.24px;
+    padding: 0 20px;
+  }
+  .main-text .signin-btn-input {
+    top: 82%;
+  }
   .sec2::before {
-    top: 550px;
+    top: 555px;
   }
-  .main-text .signin-btn {
-    left: 50%;
+  .sec2 .text {
+    top: 107%;
+    left: 17%;
   }
-  .sec2 .mob-text,
-  .sec3 .mob-text,
-  .sec4 .mob-text,
-  .sec .mob-text {
-    left: 26%;
+  .sec2 .text h1 {
+    left: 5%;
+  }
+  .sec2 .text p,
+  .sec3 .text p,
+  .sec4 .text p,
+  .sec5 .text p {
+    width: 255px;
   }
   .sec2 .text p {
+    left: 15%;
+  }
+  .sec3::before {
+    top: 156%;
+  }
+  .sec4::before {
+    top: 202%;
+  }
+  .sec2 .text {
+    left: 0%;
+  }
+  .sec4 .text {
+    top: 265%;
+    left: 0%;
+  }
+  .sec5::before {
+    top: 318%;
+  }
+  .sec5 .text p {
     position: relative;
-    top: -60px;
+    top: -20%;
   }
-  .sec3 .features {
-    left: 25%;
-    top: 166%;
-  }
-  .sec3 .mob-text {
-    top: -232%;
-    left: -60px;
-  }
+  .sec6 .text .accordion {
+    width: 120% !important;
+}
 }
