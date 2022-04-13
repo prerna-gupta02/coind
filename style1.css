@@ -573,7 +573,7 @@ body {
   .sec2 .text,
   .sec3 .text,
   .sec4 .text,
-  .sec5 .text{
+  .sec5 .text {
     height: 480px;
   }
   .sec2 .text {
@@ -591,12 +591,43 @@ body {
     top: 257%;
     left: -6%;
   }
-  .sec4 .text p{
+  .sec4 .text p {
     width: 330px;
   }
   .sec5 .text {
     top: 344%;
     left: 16%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .sec2 .text {
+    top: 100%;
+  }
+  .sec2 .text h1 {
+    left: -6%;
+  }
+  .sec2 .text p {
+    left: 4%;
+    width: 330px;
+  }
+  .sec3 .text {
+    top: 173%;
+  }
+  .sec4 .text {
+    top: 249%;
+    left: -10%;
+  }
+  .sec4 .text p {
+    width: 320px;
+}
+  .sec5 .text {
+    top: 340%;
+  }
+  .sec5 .text p {
+    left: -10%;
+  }
+  .sec6 .text .accordion {
+    width: 138% !important;
   }
 }
 @media screen and (max-width: 340px) {
@@ -653,5 +684,5 @@ body {
   }
   .sec6 .text .accordion {
     width: 120% !important;
-}
+  }
 }
