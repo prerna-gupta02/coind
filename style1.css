@@ -7,7 +7,7 @@
   font-family: "IBM Plex Sans";
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .main-text {
   width: 100vw;
@@ -424,7 +424,7 @@ body {
     line-height: 102%;
   }
   .main-text p {
-    width: 340px;
+    width: 300px;
     height: 163px;
     left: 10%;
     top: 73%;
@@ -435,6 +435,9 @@ body {
   .main-text .signin-btn-input {
     left: 10%;
     top: 80%;
+    width: 270px;
+    height: 43.24px;
+    padding: 0 20px;
   }
   .main-text .signin-btn {
     width: 91px;
@@ -567,6 +570,12 @@ body {
   }
 }
 @media screen and (max-width: 395px) {
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text{
+    height: 480px;
+  }
   .sec2 .text {
     top: 103%;
   }
@@ -581,6 +590,9 @@ body {
   .sec4 .text {
     top: 257%;
     left: -6%;
+  }
+  .sec4 .text p{
+    width: 330px;
   }
   .sec5 .text {
     top: 344%;
