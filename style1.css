@@ -404,7 +404,78 @@ body {
     right: 9%;
   }
 }
-@media screen and (max-width: 768.8px) {
+@media screen and (max-width: 1023.8px) and (min-width:760.1px) {
+  .main-text h1 {
+    top: 25%;
+  }
+  .main-text p {
+    top: 39%;
+  }
+  .main-text .signin-btn-input {
+    top: 46%;
+  }
+  .sec2::before {
+    top: 505px;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text{
+    width: 350px;
+  }
+  .sec2 .text {
+    top: 77%;
+}
+.sec3::before {
+  top: 105%;
+}
+.sec2::before{
+  height: 75vh;
+}
+.sec3{
+  height: 40vh;
+}
+.sec4,
+.sec5 {
+  height: 0vh;
+}
+.sec5::before{
+  height: 42vh;
+}
+.sec3 .text {
+  top: 113%;
+}
+.sec4::before {
+  top: 135%;
+}
+.sec4 .text {
+  top: 143%;
+  left: 20%;
+}
+.sec5::before {
+  top: 165%;
+}
+.sec5 .text {
+  top: 174%;
+  left: 49%;
+}
+.sec6 .text {
+  top: 206%;
+}
+.footer {
+  top: 250%;
+}
+.footer-child {
+  height: 130px;
+  padding: 0 40px;
+}
+.footer-child .signin-btn-input {
+  width: 280px;
+  padding: 0 16px;
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 650.8px) {
   .main-text::before {
     width: 88vw;
     height: 100vh;
@@ -619,7 +690,7 @@ body {
   }
   .sec4 .text p {
     width: 320px;
-}
+  }
   .sec5 .text {
     top: 340%;
   }
@@ -689,7 +760,7 @@ body {
   .sec5 .text {
     top: 344%;
     left: 21%;
-}
+  }
   .sec6 .text .accordion {
     width: 120% !important;
   }
