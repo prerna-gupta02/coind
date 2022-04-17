@@ -127,7 +127,7 @@ body {
   z-index: -1;
 }
 .sec2 .text {
-  top: 168%;
+  top: 182%;
   left: 12%;
   position: absolute;
 }
@@ -264,6 +264,7 @@ body {
   position: relative;
   top: -15px;
   left: 0px;
+  width: 100%;
 }
 .accordion .accordion-button {
   display: flex;
@@ -324,7 +325,61 @@ body {
 .features {
   display: none;
 }
-@media screen and (max-width: 1024.8px) {
+@media screen and (max-width: 1350px) and (min-width: 1251.1px) {
+  .main-text .logo,
+  .main-text h1,
+  .main-text p,
+  .main-text .signin-btn-input {
+    left: 150px;
+  }
+  .sec2 .text {
+    top: 173%;
+    left: 12%;
+  }
+  .sec5 .text {
+    top: 405%;
+  }
+  .sec6 .text .accordion {
+    top: 65%;
+  }
+}
+@media screen and (max-width: 1250.2px) {
+  .main-text .logo,
+  .main-text h1,
+  .main-text p,
+  .main-text .signin-btn-input {
+    left: 120px;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text{
+    width: 380px;
+  }
+  .sec2 .text {
+    top: 164%;
+  }
+  .sec3 .text {
+    top: 267%;
+  }
+  .sec4 .text {
+    top: 332%;
+    left: 17%;
+  }
+  .sec5 .text {
+    top: 403%;
+    left: 50%;
+  }
+  .sec6 .text .accordion {
+    top: 65%;
+  }
+}
+@media screen and (max-width: 1149.8px) and (min-width: 900.8px) {
+  
+  .main-text::before {
+    width: 55vw;
+    height: 130vh;
+  }
   .main-text .logo {
     left: 10%;
   }
@@ -343,6 +398,12 @@ body {
   .main-text .signin-btn {
     left: 29%;
     top: 72%;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text{
+    width: 380px;
   }
   .sec2 .text {
     top: 151%;
@@ -376,7 +437,8 @@ body {
     width: 80vw;
   }
   .sec4 .text {
-    top: 289%;
+      top: 287%;
+      left: 24%;
   }
   .sec5::before {
     top: 332%;
@@ -387,6 +449,9 @@ body {
   }
   .sec6 .text {
     top: 420%;
+  }
+  .sec6 .text .accordion {
+    left: 8%;
   }
   .accordion .accordion-header img {
     width: 70vw;
@@ -404,7 +469,111 @@ body {
     right: 9%;
   }
 }
-@media screen and (max-width: 1023.8px) and (min-width:760.1px) {
+@media screen and (max-width: 900.4px) and (min-width: 651.2px) {
+  
+  .main-text::before {
+    width: 55vw;
+    height: 130vh;
+  }
+  .main-text .logo {
+    left: 10%;
+  }
+  .main-text h1 {
+    font-size: 45px;
+    top: 30%;
+    left: 10%;
+}
+  .main-text p {
+    left: 10%;
+    top: 53%;
+  }
+  .main-text .signin-btn-input {
+    left: 10%;
+    top: 65%;
+  }
+  .main-text .signin-btn {
+    left: 29%;
+    top: 72%;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text{
+    width: 350px;
+  }
+  .sec2 .text {
+    top: 142%;
+    left: 13%;
+  }
+  .sec3::before {
+    top: 215%;
+  }
+  .sec3 .text {
+    top: 229%;
+    left: 45%;
+  }
+  .sec2 .text h1,
+  .sec3 .text h1,
+  .sec4 .text h1,
+  .sec5 .text h1 {
+    font-size: 50px;
+    width: fit-content;
+  }
+  .sec2 .text p,
+  .sec3 .text p,
+  .sec4 .text p,
+  .sec5 .text p {
+    font-size: 16px;
+    width: fit-content;
+  }
+  .sec4::before {
+    background-size: 100%;
+    top: 270%;
+    right: 0%;
+    width: 80vw;
+  }
+  .sec4 .text {
+    top: 284%;
+    left: 24%;
+  }
+  .sec5::before {
+    top: 332%;
+  }
+  .sec5 .text {
+    top: 349%;
+    left: 50%;
+  }
+  .sec6 .text {
+    top: 420%;
+  }
+  .sec6 .text .accordion {
+    left: 8%;
+  }
+  .accordion .accordion-header img {
+    width: 70vw;
+  }
+  .accordion .accordion-header h2 button {
+    font-size: 22px;
+  }
+  .accordion .accordion-body {
+    font-size: 18px;
+  }
+  .footer {
+    top: 505%;
+  }
+  .footer-child .signin-btn {
+    right: 9%;
+  }
+  .footer-child p {
+    width: 350px;
+    font-size: 16px;
+  }
+  .main-text .signin-btn-input, .footer-child .signin-btn-input {
+    width: 290px;
+    padding: 0 30px;
+  }
+}
+/* @media screen and (max-width:960.1px) {
   .main-text h1 {
     top: 25%;
   }
@@ -474,38 +643,38 @@ body {
   padding: 0 16px;
   font-size: 15px;
 }
-}
+} */
 @media screen and (max-width: 650.8px) {
   .main-text::before {
     width: 88vw;
     height: 100vh;
   }
   .main-text .logo {
-    width: 70px;
-    height: 17px;
-    left: 10%;
+    width: 95px;
+    height: 70px;
+    left: 7%;
     top: 49px;
   }
   .main-text h1 {
-    width: 272px;
-    height: 111px;
-    left: 10%;
-    top: 55%;
-    font-size: 36px;
+      width: 272px;
+      height: 111px;
+      left: 7%;
+      top: 75%;
+      font-size: 34px;
     line-height: 102%;
   }
   .main-text p {
     width: 300px;
     height: 163px;
-    left: 10%;
-    top: 73%;
+    left: 7%;
+    top: 93%;
     font-size: 12px;
     line-height: 123.5%;
     letter-spacing: -0.01em;
   }
   .main-text .signin-btn-input {
-    left: 10%;
-    top: 80%;
+    left: 7%;
+    top: 99%;
     width: 270px;
     height: 43.24px;
     padding: 0 20px;
@@ -522,7 +691,7 @@ body {
 
     background-size: 100%;
     opacity: 1;
-    top: 490px;
+    top: 500px;
     right: 0%;
     width: 100vw;
     height: 220vh;
@@ -532,8 +701,8 @@ body {
   .sec3 .text,
   .sec4 .text,
   .sec5 .text {
-    top: 105%;
-    height: 525px;
+    top: 121%;
+    height: 670px;
     display: flex;
     left: 0%;
     flex-direction: column;
@@ -553,35 +722,40 @@ body {
   .sec5 .mob-p {
     font-size: 12px !important;
     text-align: left;
+    width: 400px !important;
+  }
+  .sec2 .mob-text h1{
+    left: 10%;
+    position: relative;
   }
   .sec2 .text p {
     position: relative;
     top: -60px;
-    left: 10%;
+    left: 30%;
   }
   .sec3::before {
     background: url("./assets/mob2.png") no-repeat;
     background-size: 100%;
-    top: 150%;
+    top: 170%;
     left: 0%;
     width: 100vw;
     height: 220vh;
   }
   .sec3 .text {
-    top: 180%;
-    left: 11%;
+    top: 215%;
+    left: 16%;
   }
   .sec4::before {
     background: url("./assets/mob3.png") no-repeat;
     background-size: 100%;
-    top: 179%;
+    top: 195%;
     right: 0%;
     width: 100vw;
     height: 220vh;
   }
   .sec4 .text {
-    top: 263%;
-    left: -3%;
+    top: 325%;
+    left: 4%;
   }
   .sec4 .text p {
     position: relative;
@@ -593,13 +767,13 @@ body {
   .sec5::before {
     background: url("./assets/mob4.png") no-repeat;
     background-size: 100%;
-    top: 311%;
+    top: 372%;
     left: 0%;
     width: 100vw;
-    height: 100vh;
+    height: 135vh;
   }
   .sec5 .text {
-    top: 345%;
+    top: 424%;
     left: 18%;
   }
   .sec5 .text p {
@@ -611,11 +785,11 @@ body {
     height: 215.12px;
   }
   .sec6 .text {
-    top: 400%;
+    top: 495%;
   }
   .sec6 .text .accordion {
     top: 85%;
-    width: 158% !important;
+    width: 220% !important;
     left: 0%;
   }
   .accordion-header button {
@@ -628,7 +802,7 @@ body {
     font-size: 12px;
   }
   .footer {
-    top: 483%;
+    top: 565%;
   }
   .footer-child p {
     display: none;
@@ -640,128 +814,714 @@ body {
     width: fit-content;
   }
 }
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 600.8px) {
+  .main-text h1 {
+    top: 70%;
+  }
+  .main-text p {
+    top: 88%;
+  }
+  .main-text .signin-btn-input {
+    top: 94%;
+  }
+  .sec2::before {
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 500px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
+  }
   .sec2 .text,
   .sec3 .text,
   .sec4 .text,
   .sec5 .text {
-    height: 480px;
+    top: 118%;
+    height: 670px;
+    display: flex;
+    left: 0%;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  .sec2 .text {
-    top: 103%;
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec5 .mob-text {
+    font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
   }
-  .sec2 .text h1 {
-    left: -2%;
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+    text-align: left;
+    width: 400px !important;
+  }
+  .sec2 .mob-text h1{
+    left: 6%;
     position: relative;
   }
+  .sec2 .text p {
+    position: relative;
+    top: -60px;
+    left: 30%;
+  }
+  .sec3::before {
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 175%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
   .sec3 .text {
-    top: 177%;
-    left: 10%;
-  }
-  .sec4 .text {
-    top: 257%;
-    left: -6%;
-  }
-  .sec4 .text p {
-    width: 330px;
-  }
-  .sec5 .text {
-    top: 344%;
+    top: 215%;
     left: 16%;
   }
-}
-@media screen and (max-width: 370px) {
-  .sec2 .text {
-    top: 100%;
-  }
-  .sec2 .text h1 {
-    left: -6%;
-  }
-  .sec2 .text p {
-    left: 4%;
-    width: 330px;
-  }
-  .sec3 .text {
-    top: 173%;
+  .sec4::before {
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 210%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
   }
   .sec4 .text {
-    top: 249%;
-    left: -10%;
+    top: 325%;
+    left: 4%;
   }
   .sec4 .text p {
-    width: 320px;
+    position: relative;
+    left: 20%;
+  }
+  .sec5 {
+    height: 75%;
+  }
+  .sec5::before {
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 377%;
+    left: 0%;
+    width: 100vw;
+    height: 135vh;
   }
   .sec5 .text {
-    top: 340%;
+    top: 424%;
+    left: 18%;
   }
   .sec5 .text p {
-    left: -10%;
+    position: relative;
+    top: -10%;
+  }
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+  }
+  .sec6 .text {
+    top: 495%;
   }
   .sec6 .text .accordion {
-    width: 138% !important;
+    top: 85%;
+    width: 220% !important;
+    left: 0%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 565%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec6 .text {
+    width: fit-content;
   }
 }
-@media screen and (max-width: 340px) {
-  .main-text p {
-    width: 250px;
+@media screen and (max-width: 546.8px) {
+  .main-text h1 {
+    top: 60%;
   }
-  .main-text .signin-btn-input,
-  .footer-child .signin-btn-input {
-    width: 265px;
-    height: 43.24px;
-    padding: 0 20px;
+  .main-text p {
+    top: 78%;
   }
   .main-text .signin-btn-input {
-    top: 82%;
+    top: 84%;
   }
   .sec2::before {
-    top: 555px;
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 520px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
   }
-  .sec2 .text {
-    top: 107%;
-    left: 17%;
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text {
+    top: 116%;
+    height: 600px;
+    display: flex;
+    left: 0%;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  .sec2 .text h1 {
-    left: 5%;
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec5 .mob-text {
+    font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
   }
-  .sec2 .text p,
-  .sec3 .text p,
-  .sec4 .text p,
-  .sec5 .text p {
-    width: 255px;
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+    text-align: left;
+    width: 320px !important;
+  }
+  .sec2 .text h1{
+    position: relative;
+    left: 13%;
   }
   .sec2 .text p {
+    position: relative;
+    top: -90px;
     left: 15%;
   }
   .sec3::before {
-    top: 156%;
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 178%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
   }
   .sec3 .text {
-    top: 177%;
-    left: 17%;
+    top: 215%;
+    left: 18%;
   }
   .sec4::before {
-    top: 202%;
-  }
-  .sec2 .text {
-    left: 0%;
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 210%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
   }
   .sec4 .text {
-    top: 265%;
-    left: 0%;
+    top: 312%;
+    left: 5%;
+    height: 600px;
+  }
+  .sec4 .text p {
+    position: relative;
+    left: 10%;
+  }
+  .sec5 {
+    height: 75%;
   }
   .sec5::before {
-    top: 318%;
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 377%;
+    left: 0%;
+    width: 100vw;
+    height: 135vh;
+  }
+  .sec5 .text {
+    top: 419%;
+    left: 22%;
+    height: 600px;
   }
   .sec5 .text p {
     position: relative;
-    top: -20%;
+    top: -10%;
   }
-  .sec5 .text {
-    top: 344%;
-    left: 21%;
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+  }
+  .sec6 .text {
+    top: 495%;
   }
   .sec6 .text .accordion {
-    width: 120% !important;
+    top: 85%;
+    width: 190% !important;
+    left: 0%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 565%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec6 .text {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 470.8px) {
+  .main-text h1 {
+    top: 60%;
+  }
+  .main-text p {
+    top: 78%;
+  }
+  .main-text .signin-btn-input {
+    top: 84%;
+  }
+  .sec2::before {
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 520px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text {
+    top: 113%;
+    height: 600px;
+    display: flex;
+    left: 0%;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec5 .mob-text {
+    font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
+  }
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+    text-align: left;
+    width: 320px !important;
+  }
+  .sec2 .text h1{
+    position: relative;
+    left: 9%;
+  }
+  .sec2 .text p {
+    position: relative;
+    top: -90px;
+    left: 15%;
+  }
+  .sec3::before {
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 165%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec3 .text {
+    top: 196%;
+    left: 17%;
+  }
+  .sec4::before {
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 210%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec4 .text {
+    top: 302%;
+    left: 3%;
+    height: 550px;
+  }
+  .sec4 .text p {
+    position: relative;
+    left: 10%;
+  }
+  .sec5 {
+    height: 75%;
+  }
+  .sec5::before {
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 359%;
+    left: 0%;
+    width: 100vw;
+    height: 135vh;
+  }
+  .sec5 .text {
+    top: 397%;
+    left: 20%;
+    height: 550px;
+  }
+  .sec5 .text p {
+    position: relative;
+    top: -10%;
+  }
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+  }
+  .sec6 .text {
+    top: 455%;
+  }
+  .sec6 .text .accordion {
+    top: 85%;
+    width: 165% !important;
+    left: 0%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 528%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec6 .text {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 420.8px) {
+  .main-text h1 {
+    top: 60%;
+  }
+  .main-text p {
+    top: 78%;
+  }
+  .main-text .signin-btn-input {
+    top: 84%;
+  }
+  .sec2::before {
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 520px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text {
+    top: 106%;
+    height: 500px;
+    display: flex;
+    left: 0%;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec5 .mob-text {
+    font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
+  }
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+    text-align: left;
+    width: 270px !important;
+  }
+  .sec2 .text h1{
+    position: relative;
+    left: 1%;
+  }
+  .sec2 .text p {
+    position: relative;
+    top: -60px;
+    left: 15%;
+  }
+  .sec3::before {
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 155%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec3 .text {
+    top: 181%;
+    left: 13%;
+  }
+  .sec4::before {
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 188%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec4 .text {
+    top: 263%;
+    left: 0%;
+    height: 500px;
+  }
+  .sec4 .text p {
+    position: relative;
+    left: 15%;
+  }
+  .sec5 {
+    height: 75%;
+  }
+  .sec5::before {
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 317%;
+    left: 0%;
+    width: 100vw;
+    height: 135vh;
+  }
+  .sec5 .text {
+    top: 347%;
+    left: 17%;
+    height: 500px;
+  }
+  .sec5 .text p {
+    position: relative;
+    left: -10%;
+  }
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+  }
+  .sec6 .text {
+    top: 400%;
+  }
+  .sec6 .text .accordion {
+    top: 85%;
+    width: 145% !important;
+    left: 0%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 470%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec6 .text {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 360.8px) {
+  .main-text h1 {
+    top: 48%;
+  }
+  .main-text p {
+    top: 66%;
+  }
+  .main-text .signin-btn-input {
+    top: 72%;
+  }
+  .sec2::before {
+    background: url("./assets/mob1.png") no-repeat;
+    position: absolute;
+
+    background-size: 100%;
+    opacity: 1;
+    top: 500px;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+    z-index: -1;
+  }
+  .sec2 .text,
+  .sec3 .text,
+  .sec4 .text,
+  .sec5 .text {
+    top: 103%;
+    height: 500px;
+    display: flex;
+    left: 0%;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sec2 .mob-text,
+  .sec3 .mob-text,
+  .sec4 .mob-text,
+  .sec5 .mob-text {
+    font-size: 36px !important;
+    width: auto !important;
+    text-align: center;
+  }
+  .sec2 .mob-p,
+  .sec3 .mob-p,
+  .sec4 .mob-p,
+  .sec5 .mob-p {
+    font-size: 12px !important;
+    text-align: left;
+    width: 270px !important;
+  }
+  .sec2 .text h1{
+    position: relative;
+    left: 0%;
+  }
+  .sec2 .text p {
+    position: relative;
+    top: -60px;
+    left: 15%;
+  }
+  .sec3::before {
+    background: url("./assets/mob2.png") no-repeat;
+    background-size: 100%;
+    top: 143%;
+    left: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec3 .text {
+    top: 168%;
+    left: 12%;
+  }
+  .sec4::before {
+    background: url("./assets/mob3.png") no-repeat;
+    background-size: 100%;
+    top: 179%;
+    right: 0%;
+    width: 100vw;
+    height: 220vh;
+  }
+  .sec4 .text {
+    top: 251%;
+    left: 0%;
+    height: 450px;
+  }
+  .sec4 .text h1{
+    position: relative;
+    left: -5%;
+  }
+  .sec4 .text p {
+    position: relative;
+    left: 15%;
+  }
+  .sec5 {
+    height: 75%;
+  }
+  .sec5::before {
+    background: url("./assets/mob4.png") no-repeat;
+    background-size: 100%;
+    top: 295%;
+    left: 0%;
+    width: 100vw;
+    height: 135vh;
+  }
+  .sec5 .text {
+    top: 325%;
+    left: 16%;
+    height: 450px;
+  }
+  .sec5 .text p {
+    position: relative;
+    left: -10%;
+  }
+  .sec6 .text .faq-logo {
+    width: 215px;
+    height: 215.12px;
+  }
+  .sec6 .text {
+    top: 370%;
+  }
+  .sec6 .text .accordion {
+    top: 85%;
+    width: 145% !important;
+    left: -10%;
+  }
+  .accordion-header button {
+    font-size: 16px !important;
+  }
+  .accordion .accordion-header img {
+    top: 0px;
+  }
+  .accordion .accordion-body {
+    font-size: 12px;
+  }
+  .footer {
+    top: 445%;
+  }
+  .footer-child p {
+    display: none;
+  }
+  .footer-child .signin-btn {
+    right: 17%;
+  }
+  .sec6 .text {
+    width: fit-content;
   }
 }
