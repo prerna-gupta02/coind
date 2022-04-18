@@ -650,10 +650,10 @@ body {
     height: 100vh;
   }
   .main-text .logo {
-    width: 95px;
-    height: 70px;
+    width: 80px;
+    height: 60px;
     left: 7%;
-    top: 49px;
+    top: 25px;
   }
   .main-text h1 {
       width: 272px;
